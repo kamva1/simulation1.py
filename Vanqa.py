@@ -11,7 +11,7 @@ def sim():
 
   # defined your parameters here
    ms_set = "MeerKATnew.MS_p0"
-   sr_pos = np.arange(10,180) # arcmin
+   sr_pos = np.arange(10,180,10) # in arcmin
    options = {}
 
        #options['gridded_sky.source_flux'] = 1. # bringtness
